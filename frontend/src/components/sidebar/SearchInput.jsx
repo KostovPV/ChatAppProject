@@ -6,18 +6,24 @@ import { useState } from "react";
 
 export default function SearchInput() {
     const [search, setSearch] = useState('');
-    const {selectedConversation}  = useConversation();
-    const { conversation} = useGetConversations(); 
+    const { setSelectedConversation } = useConversation();
+    const { conversations } = useGetConversations();
 
     const handleSubmit = (e) => {
-            e.preventDefault();
-            if(!search) {
-                return
-            }
-            if(search.length < 3) {
-              return  toast.error('Conversation must have at least 3 symbols')
-            }
-
+        e.preventDefault();
+        if (!search) {
+            return
+        }
+        if (search.length < 3) {
+            return toast.error('Conversation must have at least 3 symbols')
+        }
+        const conversation = conversations.find((c => c.fullName.toLowerCase().includes(search.toLocaleLowerCase())));
+        if (conversation) {
+            setSelectedConversation(conversation);
+            setSearch('');
+        } else {
+            toast.error("No such a user found")
+        }
 
     }
 
@@ -28,7 +34,7 @@ export default function SearchInput() {
                 placeholder="Search..."
                 className="input input-bordered rounded-full"
                 value={search}
-                onChange={(e)=> setSearch(e.target.value)}
+                onChange={(e) => setSearch(e.target.value)}
             />
             <button type="submot" className="btn btn-circle bg-sky-500 text-white">
                 <IoSearchSharp className='w-6 h-6 outline-none' />
