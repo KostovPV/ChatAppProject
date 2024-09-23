@@ -1,5 +1,5 @@
 import MessageContainer from "../../components/messages/MessageContainer"
-import SideBar from "../../components/sidebar/SideBAr"
+import SideBar from "../../components/sidebar/SideBar"
 
 function Home() {
   return (
