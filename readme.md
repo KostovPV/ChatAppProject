@@ -3,7 +3,7 @@
 ChatApp is a web application built using Express.js, React.js, and MongoDB. It is a basic chat app where logged-in users can send and receive messages. The core idea of the project is to expand my knowledge and use of React and MongoDB, and to learn how to use Tailwind, DaisyUI, and Socket.io.
 
 The project is deployed at:
-https://chatappproject-fjq6.onrender.com/login
+https://chatappproject-fjq6.onrender.com
 
 # Login Page
 ![alt text](LoginPage.png)
