@@ -32,7 +32,8 @@ export default function SearchInput() {
             <input
                 type="text"
                 placeholder="Search..."
-                className="input input-bordered rounded-full"
+                // className="input input-bordered rounded-full"
+                className="input input-bordered rounded-full w-full sm:max-w-[180px] md:max-w-[250px] lg:max-w-[300px]"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
             />
