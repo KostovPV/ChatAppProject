@@ -6,21 +6,21 @@ The project is deployed at:
 https://chatappproject-fjq6.onrender.com
 
 # Login Page
-![alt![LoginPage](https://github.com/user-attachments/assets/030701a9-2738-4019-8cb2-069a64abc87b)
- text](LoginPage.png)
+![LoginPage](https://github.com/user-attachments/assets/c76b805e-eeee-4884-9a89-d79e3381d52d)
+
 
 # SignUp Page
+![SignUpPage](https://github.com/user-attachments/assets/695b397f-970a-48ec-8593-20f4c9919f87)
 
-![al![SignUpPage](https://github.com/user-attachments/assets/8688ef5d-2580-45d7-9bf6-156d6918bc2b)
-t text](SignUpPage.png)
+
 
 # Home Page
-![HomePageWithChatSelected](https://github.com/user-attachments/assets/7761ced0-9f38-410f-a8d0-a9344f95a3f2)
+![HomePageNoChatSelected](https://github.com/user-attachments/assets/264f7e6b-ba15-4137-9f1d-4c0d9a16a455)
 
-![alt text](HomePageWithChatSelected.png)
 
-![a![HomePageNoChatSelected](https://github.com/user-attachments/assets/f52f3c9e-ab3c-429f-a13b-701c4f8f9d0a)
-lt text](HomePageNoChatSelected.png)
+![HomePageWithChatSelected](https://github.com/user-attachments/assets/134e5036-3299-4993-ae76-1b88de8ee9a3)
+
+
 
 ## Features
 
