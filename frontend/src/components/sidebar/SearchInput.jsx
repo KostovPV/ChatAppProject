@@ -32,7 +32,8 @@ export default function SearchInput() {
             <input
                 type="text"
                 placeholder="Search..."
-                className="input input-bordered rounded-full"
+                // className="input input-bordered rounded-full"
+                className="input input-bordered rounded-full w-full sm:max-w-[180px] md:max-w-[250px] lg:max-w-[300px]"
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
             />
@@ -44,15 +45,3 @@ export default function SearchInput() {
 }
 
 
-// import { IoSearchSharp } from "react-icons/io5";
-
-// export default function SearchInput() {
-//     return (
-//         <form className="flex items-center gap-2">
-//             <input type="text" placeholder="Search..." className="input input-bordered rounded-full" />
-//             <button type="submot" className="btn btn-circle bg-sky-500 text-white">
-//                 <IoSearchSharp className='w-6 h-6 outline-none' />
-//             </button>
-//         </form>
-//     )
-// }
